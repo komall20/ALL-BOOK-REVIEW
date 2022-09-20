@@ -1,0 +1,19 @@
+.app {
+  position: relative;
+}
+
+.container {
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+@media screen and (max-width: 1007px) {
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
